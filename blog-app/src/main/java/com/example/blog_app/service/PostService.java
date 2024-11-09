@@ -2,8 +2,10 @@ package com.example.blog_app.service;
 
 import com.example.blog_app.entity.Posts;
 import org.bson.types.ObjectId;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 
 public interface PostService {
     Posts save(Posts post);
